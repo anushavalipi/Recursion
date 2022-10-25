@@ -1,0 +1,12 @@
+code:
+
+def lcm(x,y,z):
+    if(x*z)%y==0:
+        print(x*y)
+    else:
+        lcm(x,y,z+1)
+a=int(input())
+b=int(input())
+lcm(a,b,1)
+
+        
